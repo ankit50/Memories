@@ -5,15 +5,16 @@ import logo from "./assets/logo.png";
 import memories from "./assets/memories.png";
 import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
+import { CustomAppBar, CustomHeading, CustomImage } from "./styles";
 
 const App = () => {
   return (
     <Container maxWidth="lg">
-      <AppBar position="static" color="inherit">
+      <CustomAppBar position="static" color="inherit">
         <Typography variant="h2" align="center">
-          <img src={memories} alt="memories" height="80" width="100" />
+          <CustomImage src={memories} alt="memories" height="60" width="200" />
         </Typography>
-      </AppBar>
+      </CustomAppBar>
       <Grow in>
         <Container>
           <Grid

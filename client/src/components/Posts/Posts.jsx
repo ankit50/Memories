@@ -1,6 +1,6 @@
 import React from "react";
 import Post from "./Post/Post";
-
+import { MainContainer, SmMargin, ActionDiv } from "./styles";
 const Posts = () => {
   return (
     <>
